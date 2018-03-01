@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/ciris/proyectos/bases/movil/tns/platforms/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/ciris/.android/build-cache/8835bc191e75a60dd864c90b0ad7499d6e5fbe3b/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/ciris/proyectos/bases/movil/tns/platforms/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/ciris/.android/build-cache/8835bc191e75a60dd864c90b0ad7499d6e5fbe3b/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

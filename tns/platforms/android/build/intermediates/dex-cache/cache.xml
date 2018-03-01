@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/ciris/.android/build-cache/510b9e903cb6ea997b93b01e5fae1fab2fad6a97/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="746274223beb11b1cda7854d7eec3038695c2c93">
+        <dex dex="/home/ciris/proyectos/bases/movil/tns/platforms/android/app/build/intermediates/pre-dexed/debug/classes_2bbdcd6d6b40c0f3cb765f11e4956d6c1267e2fd.jar" />
+    </item>
+
+</items>

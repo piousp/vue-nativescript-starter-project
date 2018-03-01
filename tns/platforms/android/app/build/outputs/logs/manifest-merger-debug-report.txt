@@ -1,0 +1,136 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:3:2-34
+		INJECTED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:5:2-27
+		INJECTED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:4:2-25
+		INJECTED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:2:11-69
+supports-screens
+ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:7:2-11:33
+	android:largeScreens
+		ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:10:3-30
+	android:smallScreens
+		ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:8:3-30
+	android:normalScreens
+		ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:9:3-31
+	android:xlargeScreens
+		ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:11:3-31
+uses-sdk
+ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+MERGED from [:nativescript-optimized:] /home/ciris/.android/build-cache/510b9e903cb6ea997b93b01e5fae1fab2fad6a97/output/AndroidManifest.xml:7:5-9:41
+MERGED from [:widgets-release:] /home/ciris/.android/build-cache/2704798e1044dc1549cc5fd464ffa08a35fd5ce9/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:26.0.0-alpha1] /home/ciris/.android/build-cache/32aabd0c71eff8b586fbcf29f402185f146e2916/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/ciris/.android/build-cache/8835bc191e75a60dd864c90b0ad7499d6e5fbe3b/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/ciris/.android/build-cache/ea3765f8712ec6435adf24f629279dc010f5c9a4/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/ciris/.android/build-cache/97dae96b44a328bf9c44f2756b1a4daa15db27f7/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/ciris/.android/build-cache/42f6a8efa4486a0fefaff6be90e41b3d47513a4a/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/ciris/.android/build-cache/78b3b66306e30d510702bfe7e42093e276452ec2/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/ciris/.android/build-cache/0b0556f9a402e10c02e7e55d3c2d15313151770a/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/ciris/.android/build-cache/8d10bc4d26ab82b69bf01b9cca39a4c77b29c297/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/ciris/.android/build-cache/35d5e919307d7925b78ddc23392ffcb071912a8a/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/ciris/.android/build-cache/5b890cab6ee83088dcdb7b9ec7663a8f5b02fcf7/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/ciris/.android/build-cache/9263a91964b99a5848691e1ac4a2a223c36cc639/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/ciris/.android/build-cache/e6222548a6822811e51c156412322cfb942db3ac/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0-alpha1] /home/ciris/.android/build-cache/32aabd0c71eff8b586fbcf29f402185f146e2916/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:15:3-32
+		INJECTED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
+		INJECTED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:17:2-76
+	android:name
+		ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:17:19-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:18:2-77
+	android:name
+		ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:18:19-75
+uses-permission#android.permission.INTERNET
+ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:19:2-63
+	android:name
+		ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:19:19-61
+application
+ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:21:2-42:16
+MERGED from [:widgets-release:] /home/ciris/.android/build-cache/2704798e1044dc1549cc5fd464ffa08a35fd5ce9/output/AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:design:26.0.0-alpha1] /home/ciris/.android/build-cache/32aabd0c71eff8b586fbcf29f402185f146e2916/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/ciris/.android/build-cache/8835bc191e75a60dd864c90b0ad7499d6e5fbe3b/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/ciris/.android/build-cache/ea3765f8712ec6435adf24f629279dc010f5c9a4/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/ciris/.android/build-cache/97dae96b44a328bf9c44f2756b1a4daa15db27f7/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/ciris/.android/build-cache/78b3b66306e30d510702bfe7e42093e276452ec2/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/ciris/.android/build-cache/0b0556f9a402e10c02e7e55d3c2d15313151770a/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/ciris/.android/build-cache/8d10bc4d26ab82b69bf01b9cca39a4c77b29c297/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/ciris/.android/build-cache/35d5e919307d7925b78ddc23392ffcb071912a8a/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/ciris/.android/build-cache/5b890cab6ee83088dcdb7b9ec7663a8f5b02fcf7/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/ciris/.android/build-cache/9263a91964b99a5848691e1ac4a2a223c36cc639/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/ciris/.android/build-cache/e6222548a6822811e51c156412322cfb942db3ac/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:25:3-35
+	android:allowBackup
+		ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:23:3-29
+	android:icon
+		ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:24:3-32
+	android:theme
+		ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:26:3-34
+	android:name
+		ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:22:3-49
+activity#com.tns.NativeScriptActivity
+ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:28:3-40:14
+	android:label
+		ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:30:4-49
+	android:configChanges
+		ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:31:4-65
+	android:theme
+		ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:32:4-44
+	android:name
+		ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:29:4-47
+meta-data#SET_THEME_ON_LAUNCH
+ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:34:4-87
+	android:resource
+		ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:34:50-84
+	android:name
+		ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:34:15-49
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:36:4-39:20
+action#android.intent.action.MAIN
+ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:37:5-57
+	android:name
+		ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:37:13-54
+category#android.intent.category.LAUNCHER
+ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:38:5-65
+	android:name
+		ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:38:15-62
+activity#com.tns.ErrorReportActivity
+ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:41:3-57
+	android:name
+		ADDED from /home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/AndroidManifest.xml:41:13-55
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.0-alpha1] /home/ciris/.android/build-cache/32aabd0c71eff8b586fbcf29f402185f146e2916/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/ciris/.android/build-cache/8835bc191e75a60dd864c90b0ad7499d6e5fbe3b/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/ciris/.android/build-cache/ea3765f8712ec6435adf24f629279dc010f5c9a4/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/ciris/.android/build-cache/97dae96b44a328bf9c44f2756b1a4daa15db27f7/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/ciris/.android/build-cache/42f6a8efa4486a0fefaff6be90e41b3d47513a4a/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/ciris/.android/build-cache/78b3b66306e30d510702bfe7e42093e276452ec2/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/ciris/.android/build-cache/0b0556f9a402e10c02e7e55d3c2d15313151770a/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/ciris/.android/build-cache/8d10bc4d26ab82b69bf01b9cca39a4c77b29c297/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/ciris/.android/build-cache/35d5e919307d7925b78ddc23392ffcb071912a8a/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/ciris/.android/build-cache/5b890cab6ee83088dcdb7b9ec7663a8f5b02fcf7/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/ciris/.android/build-cache/9263a91964b99a5848691e1ac4a2a223c36cc639/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/ciris/.android/build-cache/e6222548a6822811e51c156412322cfb942db3ac/output/AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:design:26.0.0-alpha1] /home/ciris/.android/build-cache/32aabd0c71eff8b586fbcf29f402185f146e2916/output/AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:design:26.0.0-alpha1] /home/ciris/.android/build-cache/32aabd0c71eff8b586fbcf29f402185f146e2916/output/AndroidManifest.xml:26:9-47

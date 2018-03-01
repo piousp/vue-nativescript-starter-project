@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/ciris/proyectos/bases/movil/tns/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi/logo.png",
+        "source": "/home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/res/drawable-xxhdpi/logo.png"
+    },
+    {
+        "merged": "/home/ciris/proyectos/bases/movil/tns/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi/icon.png",
+        "source": "/home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/res/drawable-xxhdpi/icon.png"
+    },
+    {
+        "merged": "/home/ciris/proyectos/bases/movil/tns/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi/background.png",
+        "source": "/home/ciris/proyectos/bases/movil/tns/platforms/android/app/src/main/res/drawable-xxhdpi/background.png"
+    }
+]
