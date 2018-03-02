@@ -1,55 +1,45 @@
 {
-  "description": "NativeScript Application",
-  "license": "SEE LICENSE IN <your-license-filename>",
-  "readme": "NativeScript Application",
-  "repository": "<fill-your-repository-here>",
-  "nativescript": {
-    "id": "org.nativescript.movil",
-    "tns-android": {
-      "version": "3.4.1"
-    }
+  "name": "movil2",
+  "version": "1.0.0",
+  "description": "NativeScript-Vue application",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run clean && cross-env NODE_ENV=production node index.js",
+    "build:android": "cross-env PLATFORM=android npm run build",
+    "build:ios": "cross-env PLATFORM=ios npm run build",
+    "clean": "rimraf dist",
+    "watch": "node index.js",
+    "watch:android": "cross-env PLATFORM=android npm run watch",
+    "watch:ios": "cross-env PLATFORM=ios npm run watch"
   },
   "dependencies": {
-    "nativescript-theme-core": "~1.0.4",
-    "nativescript-vue": "^1.0.0",
-    "tns-core-modules": "^3.4.0"
+    "nativescript-vue": "^1.2.0",
+    "tns-core-modules": "3.4.1",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1",
-    "babel-traverse": "6.24.1",
-    "babel-types": "6.24.1",
-    "babylon": "6.16.1",
-    "copy-webpack-plugin": "~4.0.1",
-    "css-loader": "^0.28.4",
-    "extract-text-webpack-plugin": "~2.1.0",
-    "lazy": "1.0.11",
-    "merge-files-webpack-plugin": "^1.1.2",
-    "nativescript-css-loader": "~0.26.0",
-    "nativescript-dev-android-snapshot": "^0.*.*",
-    "nativescript-dev-webpack": "^0.6.3",
-    "node-sass": "^4.5.3",
-    "ns-vue-loader": "^0.1.0",
-    "raw-loader": "~0.5.1",
-    "resolve-url-loader": "~2.0.2",
+    "babel-loader": "^7.1.3",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "copy-webpack-plugin": "^4.4.2",
+    "cross-env": "^5.1.3",
+    "cross-spawn": "^6.0.4",
+    "css-loader": "^0.28.10",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "fs-extra": "^5.0.0",
+    "nativescript-vue-loader": "^0.1.5",
+    "nativescript-vue-target": "^0.1.0",
+    "nativescript-vue-template-compiler": "^1.2.0",
+    "node-sass": "^4.7.2",
+    "ns-vue-loader": "^0.1.2",
+    "optimize-css-assets-webpack-plugin": "^3.2.0",
+    "rimraf": "^2.6.2",
     "sass-loader": "^6.0.6",
-    "style-loader": "^0.18.2",
-    "vue-loader": "^12.2.1",
-    "vue-style-loader": "^3.0.1",
-    "vue-template-compiler": "^2.5.2",
-    "webpack": "~2.6.1",
-    "webpack-sources": "~1.0.1"
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^3.11.0",
+    "winston-color": "^1.0.0"
   },
-  "scripts": {
-    "ns-bundle": "ns-bundle",
-    "publish-ios-bundle": "npm run ns-bundle --ios --publish-app",
-    "start-android-bundle": "npm run ns-bundle --android --run-app",
-    "start-ios-bundle": "npm run ns-bundle --ios --run-app",
-    "build-android-bundle": "npm run ns-bundle --android --build-app",
-    "build-ios-bundle": "npm run ns-bundle --ios --build-app",
-    "webpack-android": "webpack --watch --env.tns --env.android",
-    "webpack-ios": "webpack --watch --env.tns --env.ios"
-  }
+  "author": "Rodrigo París <rodrigo.paris@ciriscr.com>",
+  "license": "MIT"
 }
