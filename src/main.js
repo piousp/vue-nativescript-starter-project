@@ -1,8 +1,18 @@
 import Vue from 'nativescript-vue';
-import App from './App';
+
+import router from './router';
+
+import store from './store';
 
 import './styles.scss';
 
+// Uncommment the following to see NativeScript-Vue output logs
+//Vue.config.silent = false;
+
 new Vue({
-  render: h => h(App),
+
+  router,
+
+  store,
+
 }).$start();

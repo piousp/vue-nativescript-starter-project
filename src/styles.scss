@@ -1,8 +1,15 @@
-.fa {
-    font-family: "FontAwesome";
+// Global <Label> style
+$label-color: royalblue;
+Label {
+  color: $label-color;
 }
 
-.hr {
-  width: 100%;
-  border-top: 1px solid #8c8b8b;
+// Global <Page> styles
+Page {
+  padding: 5
+}
+.page-title {
+  font-size: 24;
+  text-align: center;
+  margin: 10 0;
 }
