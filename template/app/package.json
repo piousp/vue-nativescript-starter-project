@@ -3,6 +3,6 @@
     "v8Flags": "--expose_gc"
   },
   "main": "app.js",
-  "name": "movil2",
+  "name": "movil",
   "version": "1.0.0"
 }
