@@ -26,4 +26,20 @@ npm run clean
 
 > When invoking the various npm scripts, omitting the platform will attempt to launch `tns` for both platforms, which will only work in a properly configured OSX environment.
 
-For detailed instructions, see https://github.com/nativescript-vue/vue-cli-template
+For detailed instructions, see https://github.com/nativescript-vue/vue-cli-template (la rama 0.2.0)
+
+## Instalar Plugins
+
+Se instalan con node
+``` bash
+npm install nativescript-camera --save
+```
+
+Esto lo instala y lo mete al package.json de raiz. Cuando uno corre la compilación, el `prepare.js` agarra todos los plugins que instalamos y los pasa al telefono entonces no hay que hacer mucho
+
+Si van a quitar un plugin:
+``` bash
+npm uninstall nativescript-camera --save
+```
+
+Además, tiene que quitar el plugin de `template/package.json` en dependencias.
