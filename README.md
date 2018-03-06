@@ -4,6 +4,25 @@
 
 ## Usage
 
+Antes de empezar asegurese de tener jdk1.8.0_161
+
+Construida con Node
+```bash
+nvm install 6.11.0
+nvm use 6.11.0
+```
+
+Se instala Vue-CLI
+```bash
+npm install -g @vue/cli @vue/cli-init
+```
+
+Se instala TNS (Telerik's NativeScript)
+```bash
+npm install -g nativescript
+```
+
+
 ``` bash
 # Install dependencies
 npm install
