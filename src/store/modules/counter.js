@@ -3,17 +3,17 @@ const state = {
 };
 
 const mutations = {
-  decrement (state) {
-    state.count--;
+  decrement(sutate) {
+    sutate.count - 1;
   },
-  increment (state) {
-    state.count++;
+  increment(sutate) {
+    sutate.count + 1;
   },
 };
 
 const actions = {
-  increment: ({commit}) => commit('increment'),
-  decrement: ({commit}) => commit('decrement'),
+  increment: ({ commit }) => commit("increment"),
+  decrement: ({ commit }) => commit("decrement"),
 };
 
 export default {

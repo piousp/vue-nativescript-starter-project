@@ -7,29 +7,30 @@
         <Button @tap="decrement" text="-"/>
         <Button @tap="increment" text="+"/>
       </WrapLayout>
-      <Image v-if="surprise" src="~/images/NativeScript-Vue.png"/>
+      <Image v-if="surprise"
+      src="~/images/NativeScript-Vue.png"/>
       <Button @tap="$router.push('/home')">Go home</Button>
     </StackLayout>
   </Page>
 </template>
 
 <script>
-  import { mapActions } from 'vuex';
+import { mapActions } from "vuex";
 
-  export default {
-    computed: {
-      message () {
-        return `Counter: ${this.$store.state.counter.count}`;
-      },
-      surprise () {
-        return (this.$store.state.counter.count >= 5);
-      },
+export default {
+  computed: {
+    message() {
+      return `Counter: ${this.$store.state.counter.count}`;
     },
-    methods: mapActions([
-      'decrement',
-      'increment',
-    ]),
-  };
+    surprise() {
+      return (this.$store.state.counter.count >= 5);
+    },
+  },
+  methods: mapActions([
+    "decrement",
+    "increment",
+  ]),
+};
 </script>
 
 <style scoped>

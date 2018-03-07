@@ -1,10 +1,10 @@
-import Vue from 'nativescript-vue';
-import router from './router';
-import store from './store';
+import Vue from "nativescript-vue";
+import router from "./router";
+import store from "./store";
 
-import './styles.scss';
+import "./styles.scss";
 
-/*TnsSideDrawer.build({
+/* TnsSideDrawer.build({
     templates: [{
         title: 'Home',
         androidIcon: 'ic_home_white_24dp',
@@ -32,10 +32,10 @@ import './styles.scss';
         this.i = index
     },
     context: this,
-});*/
+}); */
 
 // Uncommment the following to see NativeScript-Vue output logs
-//Vue.config.silent = false;
+// Vue.config.silent = false;
 
 new Vue({
 
