@@ -1,8 +1,8 @@
 // Global <Label> style
 $label-color: royalblue;
-Label {
+/*Label {
   color: $label-color;
-}
+}*/
 
 // Global <Page> styles
 Page {
@@ -12,4 +12,9 @@ Page {
   font-size: 24;
   text-align: center;
   margin: 10 0;
+}
+
+.tr {
+  font-size: 18;
+  padding: 15 10;
 }

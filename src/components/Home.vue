@@ -2,8 +2,9 @@
   <Page>
     <ActionBar title="Home"/>
     <StackLayout class="home">
-      <Button @tap="$router.push('/counter')" text="Counter"></Button>
-      <Button @tap="$router.push('/hello')" text="Hello World"></Button>
+      <Button @tap="$router.push('/counter')" text="Counter"/>
+      <Button @tap="$router.push('/hello')" text="Hello World"/>
+      <Button @tap="$router.push('/tareas')" text="Tareas"/>
     </StackLayout>
   </Page>
 </template>
