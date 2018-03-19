@@ -1,0 +1,21 @@
+{
+  "author": "Ciris Informatic Solutions <ventas@ciriscr.com>",
+  "scripts": {
+    "lint": "eslint src/* --ext .js --ext .vue --fix --cache",
+    "prelint:watch": "npm run lint",
+    "lint:watch": "onchange 'src/*.js' 'src/**/*.js' 'src/*.vue' 'src/**/*.vue' -- npm run lint",
+  },
+  "engines": {
+    "node": "~8.9.x",
+    "npm": "~5.7.x",
+    "cpu": [
+      "x64",
+      "ia32"
+    ]
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
