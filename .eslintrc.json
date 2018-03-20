@@ -5,11 +5,13 @@
     "node": true
   },
   "plugins": [
-    "lodash"
+    "lodash",
+    "promise"
   ],
   "extends": [
     "airbnb-base",
-    "plugin:lodash/recommended"
+    "plugin:lodash/recommended",
+    "plugin:promise/recommended"
   ],
   "rules": {
     "semi": ["error", "always"],
