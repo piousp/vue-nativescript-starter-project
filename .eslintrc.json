@@ -2,10 +2,13 @@
   "env": {
     "es6": true
   },
-  "plugins": [],
+  "plugins": [
+    "lodash"
+  ],
   "extends": [
     "airbnb-base",
-    "plugin:vue/recommended"
+    "plugin:vue/recommended",
+    "plugin:lodash/recommended"
   ],
   "parserOptions": {
     "sourceType": "module"
@@ -18,5 +21,7 @@
     "no-underscore-dangle": [ 2,{"allow": ["_id"]}],
     "no-use-before-define": ["error", { "functions": false, "classes": true }],
     "vue/html-self-closing": ["error", {"html": {"void": "never"}}],
+    "prefer-promise-reject-errors": "off",
+    "vue/max-attributes-per-line": "off"
   }
 }
