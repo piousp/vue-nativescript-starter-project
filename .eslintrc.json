@@ -3,12 +3,14 @@
     "es6": true
   },
   "plugins": [
-    "lodash"
+    "lodash",
+    "promise"
   ],
   "extends": [
     "airbnb-base",
     "plugin:vue/recommended",
-    "plugin:lodash/recommended"
+    "plugin:lodash/recommended",
+    "plugin:promise/recommended"
   ],
   "parserOptions": {
     "sourceType": "module"

@@ -4,7 +4,7 @@
   "description": "Proyecto base para NativeScript-Vue",
   "author": "Ciris Informatic Solutions <ventas@ciriscr.com>",
   "scripts": {
-    "lint": "eslint src/* --ext .js --ext .vue --fix --cache",
+    "lint": "eslint src --ext js,vue --fix --cache",
     "prelint:watch": "npm run lint",
     "lint:watch": "onchange 'src/*.js' 'src/**/*.js' 'src/*.vue' 'src/**/*.vue' -- npm run lint",
     "build": "cross-env NODE_ENV=production webpack --env.tnsAction build",
