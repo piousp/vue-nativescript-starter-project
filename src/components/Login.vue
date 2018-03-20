@@ -15,7 +15,8 @@
               <TextField secure="true" class="input" v-model="password"/>
               <StackLayout class="hr-light"/>
             </StackLayout>
-            <Button class="btn btn-primary w-full" text="Iniciar Sesión" @tap="login(email, password)"/>
+            <Button class="btn btn-primary w-full"
+                    text="Iniciar Sesión" @tap="login(email, password)"/>
           </StackLayout>
         </StackLayout>
       </ScrollView>
@@ -24,7 +25,6 @@
 </template>
 
 <script>
-
 function data() {
   return {
     email: null,
@@ -34,9 +34,7 @@ function data() {
 
 function login(email, password) {
   this.$auth.login(email, password)
-    .then(() => {
-      this.$router.replace({ name: "home" });
-    })
+    .then(() => this.$router.replace({ name: "home" }))
     .catch(err => err);
 }
 
